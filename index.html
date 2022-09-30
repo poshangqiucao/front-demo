@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- 声明文档类型 -->
+<html lang="zh-CN"> <!-- 这个元素包裹了整个完整的页面  -->
+    <head>
+        <!-- head的内容不会在浏览器中显示，它的作用是保存页面的一些元数据。 -->
+        <meta charset="utf-8"> <!-- 设置文档使用 utf-8 字符集编码 -->
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="cg">
+        <meta name="description" content="这是一段对网页的说明文字">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>我的第一个网页</title>  <!--  HTML文档的标题 -->
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="./js/index.js" defer></script>
+        <style>
+            body {
+                background: #ffffff;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>标题一</h1>
+        <h2>标题二</h2>
+        <h3>标题三</h3>
+        <span style="font-size: 32px; margin: 21px 0;">这是顶级标题吗？</span>
+        <p>生存还是<strong>毁灭</strong>，这是一个问题。</p>
+        <p>疯子、情人、         诗人都是想象的产儿。</p>
+        <span>虚荣是一件无聊的骗人的东西。 </span>
+        <span>爱所有人，信任少数人，不负任何人。</span>
+        <span>患难可以试验一个人的品格，非常的境遇方才可以显出非常的气节；
+            风平浪静的海面，所有的船只都能并驱竞胜；命运的铁拳击中要害的时候，
+            只有大勇大智的人才能够处之泰然。</span>
+        <a href="http://www.baidu.com" title="百度">百度一下</a>
+        <a href="http://www.baidu.com">
+            <img src="./img/bh.jpg" alt="一幅动漫图" title="一幅动漫图" width="100" height="100">
+        </a>
+        <a href="#me">链接到下面去</a>
+        <img src="./img/bh.jpg" alt="一幅动漫图" title="一幅动漫图" width="100" height="100">
+        <img src="./img/bh.jpg" alt="一幅动漫图" title="一幅动漫图" width="100" height="100">
+        <input type="text">
+        <input type="password">
+        <input type="radio" name="sex" value="male">男
+        <input type="radio" name="sex" value="female">女
+        <input type="checkbox" name="vehicle" value="Bike">我喜欢自行车
+        <input type="checkbox" name="vehicle" value="Car">我喜欢小汽车
+        <input type="submit" value="我是一个提交按钮">
+        <select name="cars">
+            <option value="1">第1个选项</option>
+            <option value="2">第2个选项</option>
+            <option value="3">第3个选项</option>
+            <option value="4">第4个选项</option>
+        </select>
+        <p>&lt; &gt; &quot; &apos; &amp; &copy;</p>
+        <ul>
+            <li>牛奶</li>
+            <li><em>香蕉</em></li>
+            <li>苹果</li>
+            <li>
+                <ul>
+                    <li>还有什么小东西</li>
+                    <li>不知道了</li>
+                </ul>
+            </li>
+        </ul>
+        <ol>
+            <li>第一名</li>
+            <li>第二名</li>
+            <li>第三名</li>
+        </ol>
+        <p id="me">我在这里</p>
+        <time datetime="2016-01-20">2016 年 1 月 20 日</time>
+        <br>
+        <hr>
+        <video controls width="400" height="200" autoplay loop muted>
+            <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+            <p>你的浏览器不支持 HTML5 视频。</p>
+        </video>
+        <iframe src="http://www.baidu.com"
+                width="300" height="300" frameborder="1"
+                allowfullscreen sandbox>
+            <p>你的浏览器不支持iframe</p>
+        </iframe>
+        <table border="1">
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>爱好</th>
+            </tr>
+            <tr>
+                <td>张三</td>
+                <td>22</td>
+                <td style="background-color: yellow">无</td>
+            </tr>
+        </table>
+        <div class="box">一个人思虑太多，就会失去做人的乐趣。</div>
+        <div class="box">生命中令人悲伤的一件事是你遇到了一个对你来说很重要的人，但却最终发现你们有缘无份，因此你不得不放手。</div>
+        <div class="box">名字代表什么？我们所称的玫瑰换个名字还是一样芳香。</div>
+        <div class="box2">我是一个absolute定位的盒子</div>
+        <div class="box3">我是一个fixed定位的盒子</div>
+        <div class="box4">我是一个relative定位的盒子</div>
+        <div class="container">
+            <div class="item item1">第1个浮动的盒子</div>
+            <div class="item">第2个浮动的盒子</div>
+            <div class="item">第3个浮动的盒子</div>
+            <p>
+                宁愿做一朵篱下的野花，不愿做一朵受恩惠的蔷薇。与其逢迎献媚，偷取别人的欢心，毋宁被众人所鄙弃。
+            </p>
+        </div>
+        <span class="s1">我是一个内联元素span1</span>
+        <span class="s2">我是一个内联元素span2</span>
+        <span class="s3">我是一个内联元素span3</span>
+        <div class="box5">我是演示css3新特性的盒子</div>
+        <script>
+            
+        </script>
+    </body>
+</html>
