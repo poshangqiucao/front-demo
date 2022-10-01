@@ -1,5 +1,6 @@
 console.log("hello javascript!");
 let count = 1;
+let divs = []
 function setDiv() {
     const container2 = document.getElementById("container2");
     const item = document.createElement("div");
@@ -12,6 +13,13 @@ function setDiv() {
     item.style.color = "white";
     item.setAttribute("class", "box6");
     container2.appendChild(item);
+    divs.push(item);
+}
+
+function clearDiv() {
+    const item = divs.pop();
+    const container2 = document.getElementById("container2");
+    container2.removeChild(item);
 }
 
 const btn = document.getElementById("btn");
