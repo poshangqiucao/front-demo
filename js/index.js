@@ -71,6 +71,12 @@ tabRight.onclick = () => {
     // timer = setInterval(toggleImg, 3000);
 }
 
+function setNum() {
+    for(let i = 0; i < 5; i++) {
+        const num = Math.floor(Math.random()*10);
+        document.getElementById("c"+(i+1)).innerText = num;
+    }
+}
 
 
 
