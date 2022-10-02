@@ -11,6 +11,7 @@
         <title>我的第一个网页</title>  <!--  HTML文档的标题 -->
         <link rel="stylesheet" href="./css/index.css">
         <script src="./js/index.js" defer></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <style>
             body {
                 background: #eccc68;
@@ -133,7 +134,27 @@
                 <button onclick="setNum()">重置数字</button>
             </div>
         </div>
-        
+        <button onclick="eventDemo()">演示事件流-事件冒泡和事件捕获</button>
+        <div id="app">
+            <h1>{{ message }}</h1>
+            <button @click="hello2">vue事件响应</button>
+        </div>
+        <script>
+            const { createApp } = Vue
+            
+            createApp({
+              data() {
+                return {
+                  message: 'Hello Vue!'
+                }
+              },
+              methods: {
+                hello2() {
+                    this.message = "我的值发生了改变！";
+                }
+              }
+            }).mount('#app')
+        </script>
         <script>
             
         </script>

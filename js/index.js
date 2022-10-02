@@ -12,6 +12,7 @@ function setDiv() {
     item.style.height = "100px";
     item.style.color = "white";
     item.setAttribute("class", "box6");
+    
     container2.appendChild(item);
     divs.push(item);
 }
@@ -84,6 +85,23 @@ function setNum() {
         const num = Math.floor(Math.random()*10);
         document.getElementById("c"+(i+1)).innerText = num;
     }
+}
+
+window.onclick = () => {
+    console.log("window click");
+}
+
+var name = "dds";
+console.log(window.name);
+
+let name2 = "dsdd";
+console.log(window.name2);
+
+const name3 = "fgfg";
+console.log(window.name3);
+
+function eventDemo() {
+    console.log("btn click");
 }
 
 

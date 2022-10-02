@@ -31,9 +31,9 @@
     定时器
         setTimeout()
         setInterval()
-    事件处理
+    事件，注册事件处理程序，事件对象，事件类型，DOM事件流
         onclick
-    认识对象（封装数据/值和行为/函数的结构）
+    认识对象（封装数据/值和行为/函数的结构）, 内置对象Array,String,Number,Boolean,Date, Math,RegExp,Error
         let person = {
             name: "xxx",
             hello() {
@@ -45,5 +45,6 @@
     理解原型
         prototype
     使用js操作DOM
+    前端框架的发展流程以及现有流行框架
 
 
