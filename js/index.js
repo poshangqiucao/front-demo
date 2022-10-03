@@ -1,5 +1,43 @@
 console.log("hello javascript!");
 let count = 1;
+var name = "fd";
+const pi = 3.14;
+null, undefined
+let age;
+console.log("age:" + age);
+let n = null;
+let flag = true;
+let arr = [1,2,"hello"];
+console.log(arr);
+if (flag) {
+
+}else {
+
+}
+for(let i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+let sayHello = (content) => {
+    console.log(content)
+    return content;
+}
+
+sayHello("hello")
+
+let sayHello2 = sayHello;
+
+sayHello2("hello2")
+
+// alert("hello")
+
+setTimeout(() => {
+    console.log("after 2 s");
+}, 2000)
+
+
+
+console.log(count);
 let divs = []
 function setDiv() {
     const container2 = document.getElementById("container2");
